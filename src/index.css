@@ -1,0 +1,12 @@
+:root {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	min-height: 100dvh;
+	background-color: #1e293b;
+	color: #f1f5f9;
+}
