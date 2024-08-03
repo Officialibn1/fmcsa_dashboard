@@ -80,7 +80,7 @@ const DataTable = () => {
 	const debouncedFetchData = useCallback(
 		debounce((term) => {
 			fetchDataFromServer(term);
-		}, 500),
+		}, 1200),
 		[fetchDataFromServer],
 	);
 
